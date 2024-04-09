@@ -2,10 +2,12 @@
   "name": "clean-node-api",
   "version": "1.0.0",
   "dependencies": {
-    "@types/node": "^16.18.79"
+    "@types/node": "^16.18.79",
+    "ts-node": "^10.9.2"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
   },
   "author": "",
   "license": "ISC",
